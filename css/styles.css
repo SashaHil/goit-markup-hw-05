@@ -16,7 +16,7 @@
   --work-bcg-color: rgba(33, 150, 243, 0.9);
   --main-font-family: "Roboto", sans-serif;
   --main-font-size: 16px;
-  --durotation-timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* for all */
@@ -130,7 +130,7 @@ img {
 
   color: var(--text-color);
 
-  transition: color var(--durotation-timing-function);
+  transition: color var(--duration-timing-function);
 }
 
 .site-nav .link:hover,
@@ -173,7 +173,7 @@ img {
 
   color: var(--tel-mail-color);
 
-  transition: color var(--durotation-timing-function);
+  transition: color var(--duration-timing-function);
 }
 
 .communication .link:hover,
@@ -394,8 +394,8 @@ img {
 
   color: var(--svg-color);
 
-  transition: color var(--durotation-timing-function),
-    background-color var(--durotation-timing-function);
+  transition: color var(--duration-timing-function),
+    background-color var(--duration-timing-function);
 }
 
 .team-links .link:hover,
@@ -421,8 +421,8 @@ img {
 
   cursor: pointer;
 
-  transition: background-color var(--durotation-timing-function),
-    box-shadow var(--durotation-timing-function);
+  transition: background-color var(--duration-timing-function),
+    box-shadow var(--duration-timing-function);
 }
 
 .btn:hover,
@@ -446,8 +446,8 @@ img {
   background-color: var(--bcg-modal-color);
 
   opacity: 1;
-  transition: opacity var(--durotation-timing-function),
-    visibility var(--durotation-timing-function);
+  transition: opacity var(--duration-timing-function),
+    visibility var(--duration-timing-function);
 }
 
 .backdrop.is-hidden {
@@ -474,7 +474,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  transition: transform var(--durotation-timing-function);
+  transition: transform var(--duration-timing-function);
 }
 
 .close-btn {
@@ -516,8 +516,8 @@ img {
   border: 1px solid var(--svg-color);
   border-radius: 4px;
 
-  transition: color var(--durotation-timing-function),
-    border var(--durotation-timing-function);
+  transition: color var(--duration-timing-function),
+    border var(--duration-timing-function);
 }
 
 .clients-list .link:hover,
@@ -549,9 +549,9 @@ img {
   background-color: var(--bcg-color-button);
   color: var(--text-color);
 
-  transition: color var(--durotation-timing-function),
-    background-color var(--durotation-timing-function),
-    box-shadow var(--durotation-timing-function);
+  transition: color var(--duration-timing-function),
+    background-color var(--duration-timing-function),
+    box-shadow var(--duration-timing-function);
 }
 
 .filter .btn:hover,
@@ -576,7 +576,7 @@ img {
 .work-list .link {
   display: block;
 
-  transition: box-shadow var(--durotation-timing-function);
+  transition: box-shadow var(--duration-timing-function);
 }
 
 .work-list .link:hover,
@@ -637,7 +637,7 @@ img {
 
   background-color: var(--work-bcg-color);
 
-  transition: transform var(--durotation-timing-function);
+  transition: transform var(--duration-timing-function);
 }
 
 .work-list:hover .work-overlay {
@@ -688,7 +688,7 @@ img {
 
   color: var(--address-color);
 
-  transition: color var(--durotation-timing-function);
+  transition: color var(--duration-timing-function);
 }
 
 .address .link:hover,
@@ -741,7 +741,7 @@ img {
   color: var(--primary-white-color);
   background-color: var(--svg-background-color);
 
-  transition: background-color var(--durotation-timing-function);
+  transition: background-color var(--duration-timing-function);
 }
 
 .footer-items-link .link:hover,
